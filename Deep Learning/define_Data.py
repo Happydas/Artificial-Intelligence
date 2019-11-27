@@ -9,7 +9,7 @@ def load_data():
     btc.head()
     # print(btc)
 
-    # selecting only the column that we are going to use in the prediction process
+    # selecting only the column that is going to use in the prediction process
     data_to_use = btc['Close'].values
     print(data_to_use)
     print("length", len(data_to_use))
