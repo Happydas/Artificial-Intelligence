@@ -29,7 +29,7 @@ Python’s library Keras has inbuilt model for tokenization which can be used to
 # TO Get sequence of token
 def obtain_tokens_sequence(corpus):
     """
-    :param corpus:  contains the text you want the model to learn about.
+    :param corpus:  contains the text one want the model to learn about.
     :return:
     """
 
